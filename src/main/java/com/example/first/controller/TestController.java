@@ -16,7 +16,7 @@ import com.example.first.service.TestService;
 
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+//@CrossOrigin(origins = "http://localhost:3000")
 public class TestController {
 	
 	@Autowired
