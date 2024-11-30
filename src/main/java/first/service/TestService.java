@@ -1,4 +1,4 @@
-package com.example.first.service;
+package first.service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,11 +6,11 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.example.first.DTO.DataRetrivalObj;
-import com.example.first.DTO.ProductDetails;
-import com.example.first.DTO.ResponseCategories;
-import com.example.first.DTO.User;
-import com.example.first.repository.TestRepository;
+import first.DTO.DataRetrivalObj;
+import first.DTO.ProductDetails;
+import first.DTO.ResponseCategories;
+import first.DTO.User;
+import first.repository.TestRepository;
 
 @Service
 public class TestService {

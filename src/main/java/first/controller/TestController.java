@@ -1,4 +1,4 @@
-package com.example.first.controller;
+package first.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.first.DTO.ResponseCategories;
-import com.example.first.DTO.User;
-import com.example.first.service.TestService;
+import first.DTO.ResponseCategories;
+import first.DTO.User;
+import first.service.TestService;
 
 
 @RestController

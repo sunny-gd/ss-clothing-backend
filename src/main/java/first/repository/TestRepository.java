@@ -1,4 +1,4 @@
-package com.example.first.repository;
+package first.repository;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -9,9 +9,9 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import com.example.first.DTO.DataRetrivalObj;
-import com.example.first.DTO.User;
-import com.example.first.util.DbConnection;
+import first.DTO.DataRetrivalObj;
+import first.DTO.User;
+import first.util.DbConnection;
 
 @Repository
 public class TestRepository {
